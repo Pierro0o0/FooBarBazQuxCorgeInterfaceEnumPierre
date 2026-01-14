@@ -15,7 +15,8 @@ public enum EBaz implements IBaz {
         return this.name;
     }
 
+    @Override
     void doSomethingLikeABaz() {
-
+        System.out.println("Doing something like a Baz : " + name);
     }
 }
