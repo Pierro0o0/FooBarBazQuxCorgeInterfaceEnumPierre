@@ -9,4 +9,16 @@ public class Foo {
     private Qux qux;
     private ICorge Icorge;
 
+    public Foo(IBaz Ibaz){
+        this.Ibaz = Ibaz;
+        this.Ibars = new ArrayList<>();
+        this.qux = qux;
+        this.Icorge = Icorge;
+    }
+
+    public void addBar(IBar Ibar) {
+        if (Ibar != null) {
+            this.Ibars.add(Ibar);
+        }
+    }
 }
