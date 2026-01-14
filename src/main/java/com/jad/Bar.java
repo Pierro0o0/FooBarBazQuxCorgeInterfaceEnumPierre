@@ -1,4 +1,4 @@
 package com.jad;
 
-public class Bar {
+public class Bar implements IBar{
 }

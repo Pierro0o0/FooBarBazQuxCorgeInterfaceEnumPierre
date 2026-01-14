@@ -1,4 +1,4 @@
 package com.jad;
 
-public class Corge {
+public class Corge implements IQux{
 }
